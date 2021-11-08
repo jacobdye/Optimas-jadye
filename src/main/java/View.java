@@ -17,7 +17,7 @@ public class View {
         }
     }
 
-    public void printRomanNumeral(String romanNumeral, int number) {
+    public void printRomanNumeral(StringBuilder romanNumeral, int number) {
         System.out.println("The integer of " + number + " converts to roman numerals of: " );
         System.out.println(romanNumeral);
     }
